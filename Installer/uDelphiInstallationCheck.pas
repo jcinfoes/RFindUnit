@@ -18,7 +18,8 @@ type
     DelphiTokyo102,
     DelphiRio103,
     DelphiSydney104,
-    DelphiAlexandria110);
+    DelphiAlexandria110,
+    DelphiAthens121);
 
   TDelphiInstallationCheck = class(TObject)
   public
@@ -42,7 +43,8 @@ const
     'RAD Studio 10.2 Tokyo',
     'RAD Studio 10.3 Rio',
     'RAD Studio 10.4 Sydney',
-    'RAD Studio 11.0 Alexandria'
+    'RAD Studio 11.0 Alexandria',
+    'RAD Studio 12.1 Athens'
     );
 
   TDelphiRegPaths: array [TDelphiVersions] of string = (
@@ -51,7 +53,8 @@ const
     '\Software\Embarcadero\BDS\19.0',
     '\Software\Embarcadero\BDS\20.0',
     '\Software\Embarcadero\BDS\21.0',
-    '\Software\Embarcadero\BDS\22.0'
+    '\Software\Embarcadero\BDS\22.0',
+    '\Software\Embarcadero\BDS\23.0'
   );
 
   TDelphiPackages: array [TDelphiVersions] of string = (
@@ -60,7 +63,8 @@ const
     'Delphi102\',
     'Delphi103\',
     'Delphi104\',
-    'Delphi110\'
+    'Delphi110\',
+    'Delphi121\'
   );
 
   DPK_FILENAME = 'RFindUnit.dpk';

@@ -11,6 +11,7 @@ Installer/Installer.~dsk
 *.log
 *.stat
 *.cbk
+*.exe
 Installer-deprecated/Installer.exe
 *.tvsconfig
 *.mes
