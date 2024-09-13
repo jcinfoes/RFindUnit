@@ -19,7 +19,7 @@ type
     DelphiRio103,
     DelphiSydney104,
     DelphiAlexandria110,
-    DelphiAthens121);
+    DelphiAthens120);
 
   TDelphiInstallationCheck = class(TObject)
   public
@@ -44,7 +44,7 @@ const
     'RAD Studio 10.3 Rio',
     'RAD Studio 10.4 Sydney',
     'RAD Studio 11.0 Alexandria',
-    'RAD Studio 12.1 Athens'
+    'RAD Studio 12.2 Athens'
     );
 
   TDelphiRegPaths: array [TDelphiVersions] of string = (
